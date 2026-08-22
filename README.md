@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/starbridge-logo.png" alt="StarBridge" width="900">
+  <img src="starbridge-logo.png" alt="StarBridge" width="900">
 </p>
 
 StarBridge
