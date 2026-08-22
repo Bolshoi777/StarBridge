@@ -1,0 +1,906 @@
+{
+  "version": 1,
+  "minimum_score": 2.5,
+  "secondary_ratio": 0.55,
+  "categories": [
+    {
+      "id": "ai_ml",
+      "label": "AI & ML",
+      "strong": [
+        "machine-learning",
+        "deep-learning",
+        "artificial-intelligence",
+        "large-language-model",
+        "llm",
+        "transformer",
+        "neural-network",
+        "computer-vision",
+        "generative-ai",
+        "diffusion",
+        "rag",
+        "retrieval-augmented-generation",
+        "ai-agent",
+        "ai-agents",
+        "multimodal",
+        "pytorch",
+        "tensorflow",
+        "ollama",
+        "llama.cpp",
+        "vllm"
+      ],
+      "weak": [
+        "ml",
+        "nlp",
+        "inference",
+        "embedding",
+        "embeddings",
+        "agentic",
+        "language-model",
+        "vision-model",
+        "model-serving",
+        "prompt-engineering"
+      ],
+      "phrases": [
+        "large language model",
+        "machine learning",
+        "deep learning",
+        "artificial intelligence",
+        "computer vision",
+        "generative ai",
+        "ai agent",
+        "ai agents",
+        "retrieval augmented generation",
+        "local llm"
+      ],
+      "subcategories": {
+        "LLM & Agents": [
+          "llm",
+          "large-language-model",
+          "language-model",
+          "transformer",
+          "ai-agent",
+          "ai-agents",
+          "agentic",
+          "rag",
+          "ollama",
+          "llama.cpp",
+          "vllm"
+        ],
+        "Computer Vision": [
+          "computer-vision",
+          "vision-model",
+          "object-detection",
+          "image-segmentation",
+          "opencv"
+        ],
+        "Generative AI": [
+          "generative-ai",
+          "diffusion",
+          "stable-diffusion",
+          "image-generation",
+          "text-to-image"
+        ],
+        "Speech & Audio": [
+          "speech-recognition",
+          "text-to-speech",
+          "tts",
+          "asr",
+          "whisper",
+          "audio-ai"
+        ],
+        "Local AI": [
+          "local-llm",
+          "ollama",
+          "llama.cpp",
+          "gguf",
+          "vllm"
+        ],
+        "AI Security": [
+          "ai-security",
+          "llm-security",
+          "prompt-injection",
+          "model-security",
+          "agent-security"
+        ]
+      }
+    },
+    {
+      "id": "security",
+      "label": "SECURITY",
+      "strong": [
+        "cybersecurity",
+        "information-security",
+        "infosec",
+        "pentesting",
+        "penetration-testing",
+        "appsec",
+        "application-security",
+        "vulnerability",
+        "vulnerability-scanner",
+        "exploit",
+        "exploitation",
+        "red-team",
+        "red-teaming",
+        "malware-analysis",
+        "reverse-engineering",
+        "fuzzing",
+        "forensics",
+        "burp",
+        "devsecops",
+        "security-tools",
+        "ctf"
+      ],
+      "weak": [
+        "security",
+        "scanner",
+        "audit",
+        "attack-surface",
+        "sandbox",
+        "payload",
+        "hardening",
+        "threat-intelligence",
+        "blue-team",
+        "soc"
+      ],
+      "phrases": [
+        "penetration testing",
+        "application security",
+        "reverse engineering",
+        "malware analysis",
+        "security testing",
+        "vulnerability scanning",
+        "threat intelligence",
+        "red team",
+        "blue team"
+      ],
+      "subcategories": {
+        "Pentesting & AppSec": [
+          "pentesting",
+          "penetration-testing",
+          "appsec",
+          "application-security",
+          "burp",
+          "web-security"
+        ],
+        "Reverse Engineering": [
+          "reverse-engineering",
+          "binary-analysis",
+          "decompiler",
+          "disassembler"
+        ],
+        "Malware": [
+          "malware",
+          "malware-analysis",
+          "ransomware",
+          "sandbox"
+        ],
+        "Fuzzing": [
+          "fuzzing",
+          "fuzzer",
+          "afl",
+          "libfuzzer"
+        ],
+        "Forensics": [
+          "forensics",
+          "dfir",
+          "incident-response"
+        ],
+        "Network Security": [
+          "network-security",
+          "ids",
+          "ips",
+          "packet-analysis",
+          "wireshark"
+        ],
+        "AI Security": [
+          "ai-security",
+          "llm-security",
+          "prompt-injection",
+          "model-security",
+          "agent-security"
+        ]
+      }
+    },
+    {
+      "id": "osint",
+      "label": "OSINT",
+      "strong": [
+        "osint",
+        "open-source-intelligence",
+        "reconnaissance",
+        "recon",
+        "social-network-analysis",
+        "geoint",
+        "sigint",
+        "threat-intelligence",
+        "subdomain-enumeration"
+      ],
+      "weak": [
+        "intelligence",
+        "investigation",
+        "geolocation",
+        "tracking",
+        "scraping",
+        "username-search",
+        "metadata-analysis"
+      ],
+      "phrases": [
+        "open source intelligence",
+        "social network analysis",
+        "threat intelligence",
+        "digital investigation"
+      ],
+      "subcategories": {
+        "People & Social": [
+          "social-network-analysis",
+          "username-search",
+          "social-media-intelligence"
+        ],
+        "GEOINT": [
+          "geoint",
+          "geolocation",
+          "maps",
+          "satellite"
+        ],
+        "Recon": [
+          "recon",
+          "reconnaissance",
+          "subdomain-enumeration",
+          "asset-discovery"
+        ]
+      }
+    },
+    {
+      "id": "devtools",
+      "label": "DEVTOOLS",
+      "strong": [
+        "developer-tools",
+        "devtools",
+        "cli",
+        "command-line-tool",
+        "sdk",
+        "api-client",
+        "code-generator",
+        "code-analysis",
+        "static-analysis",
+        "linter",
+        "formatter",
+        "debugger",
+        "build-tool",
+        "package-manager",
+        "ide",
+        "editor",
+        "compiler",
+        "testing-framework",
+        "test-automation"
+      ],
+      "weak": [
+        "automation",
+        "workflow",
+        "toolkit",
+        "library",
+        "framework",
+        "terminal",
+        "tui",
+        "productivity-for-developers"
+      ],
+      "phrases": [
+        "developer tool",
+        "command line tool",
+        "code generator",
+        "static analysis",
+        "test automation",
+        "developer productivity"
+      ],
+      "subcategories": {
+        "CLI & TUI": [
+          "cli",
+          "command-line-tool",
+          "terminal",
+          "tui"
+        ],
+        "Code Quality": [
+          "linter",
+          "formatter",
+          "static-analysis",
+          "code-analysis"
+        ],
+        "Testing": [
+          "testing-framework",
+          "test-automation",
+          "unit-testing",
+          "integration-testing"
+        ],
+        "Build & Package": [
+          "build-tool",
+          "package-manager",
+          "compiler"
+        ]
+      }
+    },
+    {
+      "id": "networking",
+      "label": "NETWORKING",
+      "strong": [
+        "networking",
+        "network-tools",
+        "tcp",
+        "udp",
+        "dns",
+        "http3",
+        "quic",
+        "vpn",
+        "proxy",
+        "reverse-proxy",
+        "traceroute",
+        "routing",
+        "bgp",
+        "sdn",
+        "packet-capture",
+        "packet-analysis",
+        "network-monitoring"
+      ],
+      "weak": [
+        "network",
+        "latency",
+        "asn",
+        "icmp",
+        "socket",
+        "tunnel",
+        "bandwidth",
+        "observability"
+      ],
+      "phrases": [
+        "network monitoring",
+        "packet analysis",
+        "reverse proxy",
+        "software defined networking"
+      ],
+      "subcategories": {
+        "Diagnostics": [
+          "traceroute",
+          "ping",
+          "latency",
+          "icmp",
+          "packet-analysis"
+        ],
+        "Routing": [
+          "routing",
+          "bgp",
+          "sdn"
+        ],
+        "Proxy & VPN": [
+          "proxy",
+          "reverse-proxy",
+          "vpn",
+          "tunnel"
+        ]
+      }
+    },
+    {
+      "id": "web",
+      "label": "WEB",
+      "strong": [
+        "web-development",
+        "frontend",
+        "backend",
+        "fullstack",
+        "web-framework",
+        "react",
+        "vue",
+        "svelte",
+        "nextjs",
+        "django",
+        "flask",
+        "fastapi",
+        "nodejs",
+        "browser-extension",
+        "webassembly"
+      ],
+      "weak": [
+        "website",
+        "webapp",
+        "web-app",
+        "http-api",
+        "rest-api",
+        "graphql-api"
+      ],
+      "phrases": [
+        "web application",
+        "web framework",
+        "browser extension",
+        "frontend framework",
+        "backend framework"
+      ],
+      "subcategories": {
+        "Frontend": [
+          "frontend",
+          "react",
+          "vue",
+          "svelte",
+          "nextjs"
+        ],
+        "Backend": [
+          "backend",
+          "django",
+          "flask",
+          "fastapi",
+          "nodejs"
+        ],
+        "Browser": [
+          "browser-extension",
+          "webassembly"
+        ]
+      }
+    },
+    {
+      "id": "mobile",
+      "label": "MOBILE",
+      "strong": [
+        "android",
+        "ios",
+        "mobile-development",
+        "flutter",
+        "react-native",
+        "kotlin-android",
+        "swiftui",
+        "android-development",
+        "mobile-app"
+      ],
+      "weak": [
+        "mobile",
+        "apk",
+        "android-studio",
+        "jetpack-compose",
+        "xcode"
+      ],
+      "phrases": [
+        "android app",
+        "mobile app",
+        "ios app",
+        "mobile development"
+      ],
+      "subcategories": {
+        "Android": [
+          "android",
+          "android-development",
+          "kotlin-android",
+          "jetpack-compose",
+          "apk"
+        ],
+        "iOS": [
+          "ios",
+          "swiftui",
+          "xcode"
+        ],
+        "Cross-platform": [
+          "flutter",
+          "react-native"
+        ]
+      }
+    },
+    {
+      "id": "data",
+      "label": "DATA & DATABASES",
+      "strong": [
+        "database",
+        "databases",
+        "sql",
+        "postgresql",
+        "mysql",
+        "sqlite",
+        "mongodb",
+        "redis",
+        "data-engineering",
+        "data-pipeline",
+        "etl",
+        "analytics",
+        "data-visualization",
+        "neo4j",
+        "vector-database"
+      ],
+      "weak": [
+        "data",
+        "query-engine",
+        "warehouse",
+        "olap",
+        "stream-processing"
+      ],
+      "phrases": [
+        "data engineering",
+        "data pipeline",
+        "data visualization",
+        "vector database",
+        "query engine"
+      ],
+      "subcategories": {
+        "Databases": [
+          "database",
+          "postgresql",
+          "mysql",
+          "sqlite",
+          "mongodb",
+          "redis",
+          "neo4j",
+          "vector-database"
+        ],
+        "Data Engineering": [
+          "data-engineering",
+          "data-pipeline",
+          "etl",
+          "stream-processing"
+        ],
+        "Analytics": [
+          "analytics",
+          "data-visualization",
+          "olap"
+        ]
+      }
+    },
+    {
+      "id": "devops_cloud",
+      "label": "DEVOPS & CLOUD",
+      "strong": [
+        "devops",
+        "cloud",
+        "kubernetes",
+        "docker",
+        "container",
+        "containers",
+        "terraform",
+        "ansible",
+        "ci-cd",
+        "github-actions",
+        "observability",
+        "monitoring",
+        "prometheus",
+        "grafana",
+        "serverless",
+        "platform-engineering"
+      ],
+      "weak": [
+        "deployment",
+        "infrastructure",
+        "sre",
+        "self-hosted",
+        "homelab"
+      ],
+      "phrases": [
+        "continuous integration",
+        "continuous delivery",
+        "platform engineering",
+        "cloud native",
+        "site reliability"
+      ],
+      "subcategories": {
+        "Containers": [
+          "docker",
+          "container",
+          "containers",
+          "kubernetes"
+        ],
+        "Infrastructure as Code": [
+          "terraform",
+          "ansible",
+          "iac"
+        ],
+        "Observability": [
+          "observability",
+          "monitoring",
+          "prometheus",
+          "grafana"
+        ],
+        "CI/CD": [
+          "ci-cd",
+          "github-actions",
+          "continuous-integration"
+        ]
+      }
+    },
+    {
+      "id": "systems",
+      "label": "SYSTEMS",
+      "strong": [
+        "operating-system",
+        "kernel",
+        "linux-kernel",
+        "systems-programming",
+        "embedded",
+        "firmware",
+        "bootloader",
+        "virtualization",
+        "hypervisor",
+        "emulator",
+        "runtime",
+        "memory-management",
+        "filesystem",
+        "distributed-systems"
+      ],
+      "weak": [
+        "low-level",
+        "performance",
+        "concurrency",
+        "parallel-computing",
+        "rust",
+        "c-programming"
+      ],
+      "phrases": [
+        "operating system",
+        "systems programming",
+        "distributed systems",
+        "memory management",
+        "embedded system"
+      ],
+      "subcategories": {
+        "OS & Kernel": [
+          "operating-system",
+          "kernel",
+          "linux-kernel",
+          "bootloader",
+          "filesystem"
+        ],
+        "Firmware & Embedded": [
+          "firmware",
+          "embedded",
+          "microcontroller"
+        ],
+        "Virtualization": [
+          "virtualization",
+          "hypervisor",
+          "emulator"
+        ],
+        "Distributed Systems": [
+          "distributed-systems",
+          "consensus",
+          "raft"
+        ]
+      }
+    },
+    {
+      "id": "robotics_hardware",
+      "label": "ROBOTICS & HARDWARE",
+      "strong": [
+        "robotics",
+        "robot",
+        "hardware",
+        "electronics",
+        "fpga",
+        "arduino",
+        "raspberry-pi",
+        "microcontroller",
+        "iot",
+        "drone",
+        "autonomous-vehicles",
+        "ros",
+        "ros2"
+      ],
+      "weak": [
+        "sensor",
+        "actuator",
+        "pcb",
+        "embedded-hardware"
+      ],
+      "phrases": [
+        "robot operating system",
+        "autonomous vehicle",
+        "embedded hardware"
+      ],
+      "subcategories": {
+        "Robotics": [
+          "robotics",
+          "robot",
+          "ros",
+          "ros2",
+          "autonomous-vehicles"
+        ],
+        "Electronics": [
+          "electronics",
+          "pcb",
+          "fpga",
+          "microcontroller"
+        ],
+        "IoT": [
+          "iot",
+          "arduino",
+          "raspberry-pi"
+        ]
+      }
+    },
+    {
+      "id": "science",
+      "label": "SCIENCE",
+      "strong": [
+        "scientific-computing",
+        "research",
+        "physics",
+        "chemistry",
+        "biology",
+        "bioinformatics",
+        "neuroscience",
+        "brain-computer-interface",
+        "bci",
+        "quantum-computing",
+        "mathematics",
+        "simulation",
+        "computational-science",
+        "astronomy",
+        "genomics"
+      ],
+      "weak": [
+        "science",
+        "paper",
+        "benchmark",
+        "experiment",
+        "academic",
+        "dataset"
+      ],
+      "phrases": [
+        "scientific computing",
+        "brain computer interface",
+        "quantum computing",
+        "computational science",
+        "research project"
+      ],
+      "subcategories": {
+        "Neuroscience & BCI": [
+          "neuroscience",
+          "brain-computer-interface",
+          "bci",
+          "eeg"
+        ],
+        "Physics & Quantum": [
+          "physics",
+          "quantum-computing",
+          "quantum"
+        ],
+        "Bio": [
+          "biology",
+          "bioinformatics",
+          "genomics"
+        ],
+        "Mathematics": [
+          "mathematics",
+          "math",
+          "theorem-proving"
+        ]
+      }
+    },
+    {
+      "id": "productivity",
+      "label": "PRODUCTIVITY",
+      "strong": [
+        "productivity",
+        "note-taking",
+        "knowledge-management",
+        "personal-knowledge-management",
+        "obsidian",
+        "task-management",
+        "calendar",
+        "second-brain",
+        "bookmark-manager"
+      ],
+      "weak": [
+        "notes",
+        "workflow",
+        "organizer",
+        "knowledge-base",
+        "personal-assistant"
+      ],
+      "phrases": [
+        "knowledge management",
+        "task management",
+        "note taking",
+        "second brain"
+      ],
+      "subcategories": {
+        "Knowledge Management": [
+          "knowledge-management",
+          "personal-knowledge-management",
+          "obsidian",
+          "knowledge-base",
+          "second-brain"
+        ],
+        "Tasks & Planning": [
+          "task-management",
+          "calendar",
+          "organizer"
+        ]
+      }
+    },
+    {
+      "id": "creative",
+      "label": "CREATIVE & MEDIA",
+      "strong": [
+        "image-processing",
+        "video-processing",
+        "audio-processing",
+        "graphics",
+        "3d",
+        "game-development",
+        "gamedev",
+        "blender",
+        "ffmpeg",
+        "computer-graphics",
+        "music",
+        "media-tools"
+      ],
+      "weak": [
+        "image",
+        "video",
+        "audio",
+        "creative-coding",
+        "visualization"
+      ],
+      "phrases": [
+        "image processing",
+        "video processing",
+        "audio processing",
+        "computer graphics",
+        "game development"
+      ],
+      "subcategories": {
+        "Image & Graphics": [
+          "image-processing",
+          "graphics",
+          "computer-graphics",
+          "blender",
+          "3d"
+        ],
+        "Video": [
+          "video-processing",
+          "ffmpeg"
+        ],
+        "Audio & Music": [
+          "audio-processing",
+          "music"
+        ],
+        "Games": [
+          "game-development",
+          "gamedev"
+        ]
+      }
+    },
+    {
+      "id": "crypto_blockchain",
+      "label": "CRYPTO & BLOCKCHAIN",
+      "strong": [
+        "blockchain",
+        "cryptocurrency",
+        "ethereum",
+        "bitcoin",
+        "smart-contracts",
+        "solidity",
+        "web3",
+        "defi",
+        "zero-knowledge",
+        "zkp"
+      ],
+      "weak": [
+        "crypto",
+        "wallet",
+        "consensus",
+        "token"
+      ],
+      "phrases": [
+        "smart contract",
+        "zero knowledge",
+        "decentralized finance"
+      ],
+      "subcategories": {
+        "Smart Contracts": [
+          "smart-contracts",
+          "solidity",
+          "ethereum"
+        ],
+        "Zero Knowledge": [
+          "zero-knowledge",
+          "zkp"
+        ],
+        "DeFi": [
+          "defi",
+          "decentralized-finance"
+        ]
+      }
+    }
+  ]
+}
